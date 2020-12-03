@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Simon.srcs/sources_1/imports/new/Binary_BCD_Converter.v" \
+"../../../../Simon.srcs/sources_1/imports/new/Binary_to_7SegmentDisplay.v" \
+"../../../../Simon.srcs/sources_1/imports/new/Shift_Add3_algorithm.v" \
+"../../../../Simon.srcs/sources_1/imports/new/SlowClock.v" \
+"../../../../Simon.srcs/sources_1/imports/new/TwoBitCounter.v" \
+"../../../../Simon.srcs/sources_1/imports/new/decoder2to4.v" \
+"../../../../Simon.srcs/sources_1/imports/new/mux4to1.v" \
+"../../../../Simon.srcs/sources_1/imports/new/bcdDisplay4.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

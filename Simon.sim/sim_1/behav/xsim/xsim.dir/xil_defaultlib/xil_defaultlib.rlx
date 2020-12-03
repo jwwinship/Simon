@@ -1,0 +1,13 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/Binary_BCD_Converter.v,1606173085,verilog,,C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/Binary_to_7SegmentDisplay.v,,Binary_BCD_Converter,,,,,,,,
+C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/Binary_to_7SegmentDisplay.v,1606172630,verilog,,C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/Shift_Add3_algorithm.v,,Binary_to_7SegmentDisplay,,,,,,,,
+C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/Shift_Add3_algorithm.v,1606171726,verilog,,C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/SlowClock.v,,Shift_Add3_algorithm,,,,,,,,
+C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/SlowClock.v,1606172113,verilog,,C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/TwoBitCounter.v,,SlowClock,,,,,,,,
+C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/TwoBitCounter.v,1606171180,verilog,,C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/decoder2to4.v,,TwoBitCounter,,,,,,,,
+C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/bcdDisplay4.v,1606172464,verilog,,,,bcdDisplay4,,,,,,,,
+C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/decoder2to4.v,1606171764,verilog,,C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/mux4to1.v,,decoder2to4,,,,,,,,
+C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/mux4to1.v,1606172605,verilog,,C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/bcdDisplay4.v,,mux4to1,,,,,,,,

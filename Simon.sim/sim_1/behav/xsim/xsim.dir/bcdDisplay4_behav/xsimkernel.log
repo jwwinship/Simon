@@ -1,0 +1,4 @@
+Running: xsim.dir/bcdDisplay4_behav/xsimk.exe -simmode gui -wdb bcdDisplay4_behav.wdb -simrunnum 0 -socket 54991
+Design successfully loaded
+Design Loading Memory Usage: 5880 KB (Peak: 5880 KB)
+Design Loading CPU Usage: 0 ms

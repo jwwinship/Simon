@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:{C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/constrs_1/new/Simon.xdc} rfile:../../../Simon.srcs/constrs_1/new/Simon.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/John/Documents/GitHub/Simon/Simon.srcs/constrs_1/new/Simon.xdc rfile:../../../Simon.srcs/constrs_1/new/Simon.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5 [get_ports clk]
 set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
@@ -87,3 +87,5 @@ set_property src_info {type:XDC file:1 line:104 export:INPUT save:INPUT read:REA
 set_property PACKAGE_PIN V4 [get_ports {an[2]}]
 set_property src_info {type:XDC file:1 line:106 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W4 [get_ports {an[3]}]
+set_property src_info {type:XDC file:1 line:110 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U18 [get_ports submit]

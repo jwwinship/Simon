@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.runs/synth_1/bcdDisplay4.tcl"
+  variable script "C:/Users/John/Documents/GitHub/Simon/Simon.runs/synth_1/bcdDisplay4.tcl"
   variable category "vivado_synth"
 }
 
@@ -78,25 +78,27 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.xpr} [current_project]
+set_property webtalk.parent_dir C:/Users/John/Documents/GitHub/Simon/Simon.cache/wt [current_project]
+set_property parent.project_path C:/Users/John/Documents/GitHub/Simon/Simon.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {c:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.cache/ip} [current_project]
+set_property ip_output_repo c:/Users/John/Documents/GitHub/Simon/Simon.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  {C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/Binary_BCD_Converter.v}
-  {C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/Binary_to_7SegmentDisplay.v}
-  {C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/Shift_Add3_algorithm.v}
-  {C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/SlowClock.v}
-  {C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/new/SwitchToLED.v}
-  {C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/TwoBitCounter.v}
-  {C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/decoder2to4.v}
-  {C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/mux4to1.v}
-  {C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/new/slowCounter.v}
-  {C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/sources_1/imports/new/bcdDisplay4.v}
+  C:/Users/John/Documents/GitHub/Simon/Simon.srcs/sources_1/imports/new/Binary_BCD_Converter.v
+  C:/Users/John/Documents/GitHub/Simon/Simon.srcs/sources_1/imports/new/Binary_to_7SegmentDisplay.v
+  C:/Users/John/Documents/GitHub/Simon/Simon.srcs/sources_1/imports/new/Shift_Add3_algorithm.v
+  C:/Users/John/Documents/GitHub/Simon/Simon.srcs/sources_1/imports/new/SlowClock.v
+  C:/Users/John/Documents/GitHub/Simon/Simon.srcs/sources_1/new/SwitchToLED.v
+  C:/Users/John/Documents/GitHub/Simon/Simon.srcs/sources_1/imports/new/TwoBitCounter.v
+  C:/Users/John/Documents/GitHub/Simon/Simon.srcs/sources_1/new/checkForWin.v
+  C:/Users/John/Documents/GitHub/Simon/Simon.srcs/sources_1/new/debounce.v
+  C:/Users/John/Documents/GitHub/Simon/Simon.srcs/sources_1/imports/new/decoder2to4.v
+  C:/Users/John/Documents/GitHub/Simon/Simon.srcs/sources_1/imports/new/mux4to1.v
+  C:/Users/John/Documents/GitHub/Simon/Simon.srcs/sources_1/new/slowCounter.v
+  C:/Users/John/Documents/GitHub/Simon/Simon.srcs/sources_1/imports/new/bcdDisplay4.v
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -107,8 +109,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/constrs_1/new/Simon.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.srcs/constrs_1/new/Simon.xdc}}]
+read_xdc C:/Users/John/Documents/GitHub/Simon/Simon.srcs/constrs_1/new/Simon.xdc
+set_property used_in_implementation false [get_files C:/Users/John/Documents/GitHub/Simon/Simon.srcs/constrs_1/new/Simon.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

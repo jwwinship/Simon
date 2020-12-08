@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.runs/impl_1/bcdDisplay4.tcl"
+  variable script "C:/Users/John/Documents/GitHub/Simon/Simon.runs/impl_1/bcdDisplay4.tcl"
   variable category "vivado_impl"
 }
 
@@ -125,7 +125,7 @@ set rc [catch {
   set_param chipscope.maxJobs 3
   set_param xicom.use_bs_reader 1
   open_checkpoint bcdDisplay4_routed.dcp
-  set_property webtalk.parent_dir {C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.cache/wt} [current_project]
+  set_property webtalk.parent_dir C:/Users/John/Documents/GitHub/Simon/Simon.cache/wt [current_project]
 set_property TOP bcdDisplay4 [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }

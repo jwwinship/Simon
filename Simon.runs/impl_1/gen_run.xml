@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1607565967">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1607570782">
   <File Type="BITSTR-BMM" Name="Simon_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="Simon_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="Simon_timing_summary_init.rpt"/>

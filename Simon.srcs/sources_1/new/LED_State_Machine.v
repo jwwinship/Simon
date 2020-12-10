@@ -5,7 +5,7 @@
 // 
 // Create Date: 12/09/2020 02:52:16 PM
 // Design Name: 
-// Module Name: LED_State_Machine
+// Module Name: Level_State_Machine
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module LED_State_Machine(
+module Level_State_Machine(
     input clk,
     input reset,
     input submit,

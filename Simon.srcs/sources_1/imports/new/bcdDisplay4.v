@@ -44,11 +44,6 @@ module Simon(
     wire incrementLevel; 
     
     
-    //wire [15:0] prev_switch_state = 16'b0000000000000000;
-    //wire [4:0] most_recent_switch; // No initial value
-    //switchDetector L0(sw,prev_switch_state, most_recent_switch);
-    //switchStateReset reset(sw, prev_switch_state);
-    
     debounce Submit(clk, submit, deb_submit);
     
     Binary_BCD_Converter L1(level, ones, tens, hundreds);
@@ -58,8 +53,7 @@ module Simon(
     decoder2to4 L5(counter_out, an);
     Binary_to_7SegmentDisplay L6(mux_out, seg);
     
-    //checkForWin L10(deb_submit,clk,sw, LED0, LED1, LED2, LED3,LED4, LED5, LED6, LED7,  incrementLevel);
-    LED_State_Machine L7(clk,reset, deb_submit,sw, level, LED0, LED1, LED2, LED3, LED4, LED5, LED6, LED7);
+    Level_State_Machine L7(clk,reset, deb_submit,sw, level, LED0, LED1, LED2, LED3, LED4, LED5, LED6, LED7);
     slowCounter L8(clk, LED0, LED1, LED2, LED3,LED4, LED5, LED6, LED7,slowCounter_out);
     counterToLED L9(slowCounter_out, LED);
     

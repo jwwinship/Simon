@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.runs/impl_1'
+HD_PWD='C:/Users/John/Documents/GitHub/Simon/Simon.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .write_bitstream.begin.rst
-EAStep vivado -log bcdDisplay4.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source bcdDisplay4.tcl -notrace
+EAStep vivado -log Simon.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Simon.tcl -notrace
 
 

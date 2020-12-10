@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="49" Path="C:/Users/John/Desktop/ECE Resources/2029/Simon/Simon/Simon.xpr">
+<Project Version="7" Minor="49" Path="C:/Users/John/Documents/GitHub/Simon/Simon.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="0cccd18953c74eb0a58e7a55b2e922f1"/>
@@ -37,7 +37,7 @@
     <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
-    <Option Name="WTXSimLaunchSim" Val="1"/>
+    <Option Name="WTXSimLaunchSim" Val="4"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -68,7 +68,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/imports/new/Binary_BCD_Converter.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/Binary_BCD_Converter.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/ECE Resources/2029/Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/Binary_BCD_Converter.v"/>
           <Attr Name="ImportTime" Val="1606173085"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -77,8 +77,15 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Binary_to_7SegmentDisplay.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Labs/Lab4Full/Binary_to_7SegmentDisplay/Binary_to_7SegmentDisplay.srcs/sources_1/new/Binary_to_7SegmentDisplay.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/ECE Resources/2029/Labs/Lab4Full/Binary_to_7SegmentDisplay/Binary_to_7SegmentDisplay.srcs/sources_1/new/Binary_to_7SegmentDisplay.v"/>
           <Attr Name="ImportTime" Val="1606172630"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/LED_State_Machine.v">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -86,7 +93,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Shift_Add3_algorithm.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/Shift_Add3_algorithm.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/ECE Resources/2029/Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/Shift_Add3_algorithm.v"/>
           <Attr Name="ImportTime" Val="1606171726"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -95,7 +102,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/SlowClock.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/SlowClock.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/ECE Resources/2029/Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/SlowClock.v"/>
           <Attr Name="ImportTime" Val="1606172113"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -111,8 +118,15 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/TwoBitCounter.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/TwoBitCounter.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/ECE Resources/2029/Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/TwoBitCounter.v"/>
           <Attr Name="ImportTime" Val="1606171180"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/debounce.v">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -120,7 +134,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/decoder2to4.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/decoder2to4.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/ECE Resources/2029/Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/decoder2to4.v"/>
           <Attr Name="ImportTime" Val="1606171764"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -129,7 +143,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/mux4to1.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/mux4to1.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/ECE Resources/2029/Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/mux4to1.v"/>
           <Attr Name="ImportTime" Val="1606172605"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -145,7 +159,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/bcdDisplay4.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/bcdDisplay4.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/ECE Resources/2029/Labs/Lab4Full/Lab 4/Lab 4.srcs/sources_1/new/bcdDisplay4.v"/>
           <Attr Name="ImportTime" Val="1606172464"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -154,7 +168,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="bcdDisplay4"/>
+        <Option Name="TopModule" Val="Simon"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
@@ -171,11 +185,18 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_1/new/switchDetector_tb.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="bcdDisplay4"/>
+        <Option Name="TopModule" Val="switchDetector_tb"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
-        <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
         <Option Name="SelectedSimModel" Val="rtl"/>
@@ -237,7 +258,9 @@
         <Step Id="phys_opt_design"/>
         <Step Id="route_design"/>
         <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
+        <Step Id="write_bitstream">
+          <Option Id="BinFile">1</Option>
+        </Step>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>

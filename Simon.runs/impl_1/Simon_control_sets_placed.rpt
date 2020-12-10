@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Wed Dec  9 19:49:07 2020
+| Date         : Wed Dec  9 21:06:47 2020
 | Host         : LAPTOP-CD0JQ47T running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file Simon_control_sets_placed.rpt
 | Design       : Simon
@@ -60,10 +60,10 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |              52 |           17 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              37 |           14 |
+| No           | Yes                   | No                     |              37 |           11 |
 | Yes          | No                    | No                     |               2 |            2 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |              19 |            4 |
+| Yes          | Yes                   | No                     |              19 |            5 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
@@ -76,10 +76,10 @@ Table of Contents
 |  clk_IBUF_BUFG           | Submit/clear              |                            |                1 |              1 |         1.00 |
 |  clk_IBUF_BUFG           | Submit/stable0_out        |                            |                1 |              1 |         1.00 |
 |  L3/CLK                  |                           |                            |                1 |              2 |         2.00 |
-|  clk_IBUF_BUFG           | Submit/incrementLevel_reg | reset_IBUF                 |                1 |              7 |         7.00 |
+|  clk_IBUF_BUFG           | Submit/incrementLevel_reg | reset_IBUF                 |                2 |              7 |         3.50 |
 |  clk_IBUF_BUFG           | Submit/count              | Submit/clear               |                3 |             12 |         4.00 |
 |  L7/LED2_reg[13]_i_2_n_0 |                           |                            |                5 |             15 |         3.00 |
-|  clk_IBUF_BUFG           |                           | L8/p_0_in[4]               |                8 |             16 |         2.00 |
+|  clk_IBUF_BUFG           |                           | L8/p_0_in[4]               |                5 |             16 |         3.20 |
 |  clk_IBUF_BUFG           |                           | L3/period_count[0]_i_1_n_0 |                6 |             21 |         3.50 |
 |  clk_IBUF_BUFG           |                           |                            |               11 |             35 |         3.18 |
 +--------------------------+---------------------------+----------------------------+------------------+----------------+--------------+

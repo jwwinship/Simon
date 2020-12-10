@@ -22,7 +22,7 @@
 
 module Binary_BCD_Converter(
     //input [15:0] A,
-    input win,
+    input [3:0] levelNumber,
     output [3:0] ones,
     output [3:0] tens,
     output [1:0] hundreds
@@ -33,7 +33,7 @@ module Binary_BCD_Converter(
     
     wire [3:0] d1, d2, d3, d4, d5, d6, d7; // dat lines in add three
     
-    assign A = {15'b000000000000000, win};
+    assign A = {12'b000000000000,levelNumber};
     assign d1={1'b0,A[7:5]};
     assign d2={c1[2:0],A[4]};
     assign d3={c2[2:0],A[3]};

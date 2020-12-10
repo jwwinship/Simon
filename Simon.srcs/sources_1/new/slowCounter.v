@@ -22,13 +22,13 @@
 
 module slowCounter(
     input clk,
-    input [15:0] LED0, LED1, LED2, LED3,
+    input [15:0] LED0, LED1, LED2, LED3,LED4, LED5, LED6, LED7,
     output [15:0] LED  
     
     );
     
     
-    reg [28:0] tempCounter = 29'b0;
+    reg [29:0] tempCounter = 29'b0;
     reg [15:0] code = 16'b0;
 
     
@@ -36,24 +36,25 @@ module slowCounter(
     always @(posedge clk) 
         begin
             tempCounter = tempCounter + 1;
-            case (tempCounter[28:25]) 
+            case (tempCounter[29:25]) 
                 
                 0: code <= LED0 ;
                 1: code <= LED0;
-                2: code <= LED0;
-                3: code <= LED0;
-                4: code <= LED1;
-                5: code <= LED1;
-                6: code <= LED1;
-                7: code <= LED1;
-                8: code <= LED2;
-                9: code <= LED2;
-                10: code <= LED2;
-                11: code <= LED2;
-                12: code <= LED3;
-                13: code <= LED3;
-                14: code <= LED3;
-                15: code <= LED3;
+                2: code <= LED1;
+                3: code <= LED1;
+                4: code <= LED2;
+                5: code <= LED2;
+                6: code <= LED3;
+                7: code <= LED3;
+                8: code <= LED4;
+                9: code <= LED4;
+                10: code <= LED5;
+                11: code <= LED5;
+                12: code <= LED6;
+                13: code <= LED6;
+                14: code <= LED7;
+                15: code <= LED7;
+                default: code <= 16'b0000000000000000;
             
             
             
